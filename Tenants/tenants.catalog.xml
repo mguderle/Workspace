@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tenants>
+  <Tenant id="bexis" default="false" status="active" />
+  <Tenant id="idiv" default="true" status="active" />
+  <Tenant id="jexis" default="false" status="active" />
+</Tenants>

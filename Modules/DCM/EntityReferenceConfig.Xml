@@ -1,0 +1,9 @@
+<config>
+<referenceTypes>
+    <referenceType>collection</referenceType>
+    <referenceType>based on</referenceType>
+    <referenceType>child of</referenceType>
+    <referenceType>parent of</referenceType>
+    <referenceType>link</referenceType>
+</referenceTypes>
+</config>
