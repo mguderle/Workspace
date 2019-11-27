@@ -10,9 +10,9 @@
   <TechnicalContacts type="MetadataPackageUsage" name="TechnicalContacts" id="2">
     <TechnicalContactsType type="MetadataPackage" name="TechnicalContactsType" roleId="2" id="2" number="1">
       <TechnicalContact type="MetadataAttributeUsage" name="TechnicalContact" id="2">
-        <MicroAgentP type="MetadataAttribute" name="MicroAgentP" roleId="6" id="6" number="1">
+        <MicroAgentP type="MetadataAttribute" name="MicroAgentP" roleId="2" id="6" number="1">
           <Name type="MetadataAttributeUsage" name="Name" id="1">
-            <NameType type="MetadataAttribute" name="NameType" roleId="1" id="2" number="1" />
+            <NameType type="MetadataAttribute" name="NameType" roleId="1" id="2" number="1">Terminator</NameType>
           </Name>
           <Email type="MetadataAttributeUsage" name="Email" id="2">
             <EmailType type="MetadataAttribute" name="EmailType" roleId="2" id="3" number="1" />
@@ -30,9 +30,9 @@
   <ContentContacts type="MetadataPackageUsage" name="ContentContacts" id="3">
     <ContentContactsType type="MetadataPackage" name="ContentContactsType" roleId="3" id="3" number="1">
       <ContentContact type="MetadataAttributeUsage" name="ContentContact" id="3">
-        <MicroAgentP type="MetadataAttribute" name="MicroAgentP" roleId="6" id="6" number="1">
+        <MicroAgentP type="MetadataAttribute" name="MicroAgentP" roleId="3" id="6" number="1">
           <Name type="MetadataAttributeUsage" name="Name" id="1">
-            <NameType type="MetadataAttribute" name="NameType" roleId="1" id="2" number="1" />
+            <NameType type="MetadataAttribute" name="NameType" roleId="1" id="2" number="1">Doctor Who</NameType>
           </Name>
           <Email type="MetadataAttributeUsage" name="Email" id="2">
             <EmailType type="MetadataAttribute" name="EmailType" roleId="2" id="3" number="1" />
@@ -50,18 +50,18 @@
   <OtherProviders type="MetadataPackageUsage" name="OtherProviders" id="4">
     <OtherProvidersType type="MetadataPackage" name="OtherProvidersType" roleId="4" id="4" number="1">
       <OtherProvider type="MetadataAttributeUsage" name="OtherProvider" id="4">
-        <OtherProviderType type="MetadataAttribute" name="OtherProviderType" roleId="7" id="7" number="1" />
+        <OtherProviderType type="MetadataAttribute" name="OtherProviderType" roleId="4" id="7" number="1" />
       </OtherProvider>
     </OtherProvidersType>
   </OtherProviders>
   <Metadata type="MetadataPackageUsage" name="Metadata" id="5">
     <MetadataType type="MetadataPackage" name="MetadataType" roleId="5" id="5" number="1">
       <Description type="MetadataAttributeUsage" name="Description" id="5">
-        <DescriptionType type="MetadataAttribute" name="DescriptionType" roleId="13" id="13" number="1">
+        <DescriptionType type="MetadataAttribute" name="DescriptionType" roleId="5" id="13" number="1">
           <Representation type="MetadataAttributeUsage" name="Representation" id="9">
             <MetadataDescriptionRepr type="MetadataAttribute" name="MetadataDescriptionRepr" roleId="9" id="12" number="1">
               <Title type="MetadataAttributeUsage" name="Title" id="5">
-                <TitleType type="MetadataAttribute" name="TitleType" roleId="5" id="8" number="1">asdf</TitleType>
+                <TitleType type="MetadataAttribute" name="TitleType" roleId="5" id="8" number="1" />
               </Title>
               <Details type="MetadataAttributeUsage" name="Details" id="6">
                 <DetailsType type="MetadataAttribute" name="DetailsType" roleId="6" id="9" number="1" />
@@ -77,10 +77,10 @@
         </DescriptionType>
       </Description>
       <IconURI type="MetadataAttributeUsage" name="IconURI" id="6">
-        <IconURIType type="MetadataAttribute" name="IconURIType" roleId="14" id="14" number="1" />
+        <IconURIType type="MetadataAttribute" name="IconURIType" roleId="6" id="14" number="1" />
       </IconURI>
       <Scope type="MetadataAttributeUsage" name="Scope" id="7">
-        <ScopeType type="MetadataAttribute" name="ScopeType" roleId="19" id="19" number="1">
+        <ScopeType type="MetadataAttribute" name="ScopeType" roleId="7" id="19" number="1">
           <GeoecologicalTerms type="MetadataAttributeUsage" name="GeoecologicalTerms" id="12">
             <GeoecologicalTermsType type="MetadataAttribute" name="GeoecologicalTermsType" roleId="12" id="16" number="1">
               <GeoEcologicalTerm type="MetadataAttributeUsage" name="GeoEcologicalTerm" id="10">
@@ -98,7 +98,7 @@
         </ScopeType>
       </Scope>
       <Version type="MetadataAttributeUsage" name="Version" id="8">
-        <VersionType type="MetadataAttribute" name="VersionType" roleId="24" id="24" number="1">
+        <VersionType type="MetadataAttribute" name="VersionType" roleId="8" id="24" number="1">
           <Major type="MetadataAttributeUsage" name="Major" id="14">
             <MajorType type="MetadataAttribute" name="MajorType" roleId="14" id="20" number="1" />
           </Major>
@@ -114,7 +114,7 @@
         </VersionType>
       </Version>
       <RevisionData type="MetadataAttributeUsage" name="RevisionData" id="9">
-        <RevisionData type="MetadataAttribute" name="RevisionData" roleId="29" id="29" number="1">
+        <RevisionData type="MetadataAttribute" name="RevisionData" roleId="9" id="29" number="1">
           <Creators type="MetadataAttributeUsage" name="Creators" id="18">
             <CreatorsType type="MetadataAttribute" name="CreatorsType" roleId="18" id="25" number="1" />
           </Creators>
@@ -130,7 +130,7 @@
         </RevisionData>
       </RevisionData>
       <Owners type="MetadataAttributeUsage" name="Owners" id="10">
-        <OwnersType type="MetadataAttribute" name="OwnersType" roleId="60" id="60" number="1">
+        <OwnersType type="MetadataAttribute" name="OwnersType" roleId="10" id="60" number="1">
           <Owner type="MetadataAttributeUsage" name="Owner" id="52">
             <Contact type="MetadataAttribute" name="Contact" roleId="52" id="59" number="1">
               <Organisation type="MetadataAttributeUsage" name="Organisation" id="44">
@@ -240,7 +240,7 @@
         </OwnersType>
       </Owners>
       <IPRStatements type="MetadataAttributeUsage" name="IPRStatements" id="11">
-        <IPRStatements type="MetadataAttribute" name="IPRStatements" roleId="69" id="69" number="1">
+        <IPRStatements type="MetadataAttribute" name="IPRStatements" roleId="11" id="69" number="1">
           <IPRDeclarations type="MetadataAttributeUsage" name="IPRDeclarations" id="63">
             <IPRDeclarationsType type="MetadataAttribute" name="IPRDeclarationsType" roleId="63" id="62" number="1">
               <IPRDeclaration type="MetadataAttributeUsage" name="IPRDeclaration" id="56">
