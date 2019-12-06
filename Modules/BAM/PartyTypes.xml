@@ -1,3 +1,12 @@
+<!-- WARNING:
+When a running instance re-reads a modified PartyType.xml file, 
+all data from attributes that are deleted.
+ 
+E.g.
+A person type has an attribute ORCID. If this instance no longer needs the ORCID attribute,
+you can delete this attribute in the PartyType.xml and read this document again. This deletes 
+the attribute and all values that were collected for this attribute in the database. -->
+
 <DefaultPartyParameters>
 	<PartyTypes>
 		<PartyType Name="Person" >
