@@ -47,7 +47,7 @@ the attribute and all values that were collected for this attribute in the datab
 		<PartyType Name="Group" >
 			<Attribute Name="Name" type="String" isValueOptional="false" isMain="true" isUnique="true"/>
 		</PartyType>
-		
+
 		<PartyType Name="Dataset" SystemType="true" >
 			<Attribute Name="Id" type="String" isValueOptional="false" isMain="true" isUnique="true"/>
 			<Attribute Name="Name" type="String" isValueOptional="true" />
@@ -55,41 +55,49 @@ the attribute and all values that were collected for this attribute in the datab
 	</PartyTypes>
 
 	<PartyRelationshipTypes>
+	
+		<!--Person to Organisation-->
 		<PartyRelationshipType Name="organizationEmployment" DisplayName="Organization Employment" Description="for which institute is a person working for" IndicatesHierarchy="false" MaxCardinality="50" MinCardinality="1" >
 			<PartyTypesPairs>
 				<PartyTypesPair SourceType="Person" TargetType="Organization" Title="employment" Description="for which institute is a person working for" />
 			</PartyTypesPairs>
 		</PartyRelationshipType>
-		
+
+		<!--Person to Group-->
 		<PartyRelationshipType Name="groupMember" DisplayName="Group Member" Description="in which group is a person working for" IndicatesHierarchy="false" MaxCardinality="50" MinCardinality="0" >
 			<PartyTypesPairs>
 				<PartyTypesPair SourceType="Person" TargetType="Group" Title="group member" Description="member of one or more group" />
 			</PartyTypesPairs>
 		</PartyRelationshipType>
 		
+		<!--Person to Project-->
 		<PartyRelationshipType Name="projectMember" DisplayName="Project Member" Description="in which project is a person working for" IndicatesHierarchy="false" MaxCardinality="50" MinCardinality="0" >
 			<PartyTypesPairs>
 				<PartyTypesPair SourceType="Person" TargetType="Project" Title="project member" Description="member of one or more projects"/>
 			</PartyTypesPairs>
 		</PartyRelationshipType>
 		
+		<!--Person to Institute-->
 		<PartyRelationshipType Name="instituteMember" DisplayName="Institute Member" Description="in which institute is a person working for" IndicatesHierarchy="false" MaxCardinality="50" MinCardinality="0" >
 			<PartyTypesPairs>
 				<PartyTypesPair SourceType="Person" TargetType="Institute" Title="Institute member" Description="member of one or more Institutes"/>
 			</PartyTypesPairs>
 		</PartyRelationshipType>
 		
+		<!--Person to Dataset as Owner-->
 		<PartyRelationshipType Name="Owner" IndicatesHierarchy="false" >
 			<PartyTypesPairs>
 				<PartyTypesPair SourceType="Person" TargetType="Dataset" Title="Owner" PermissionsTemplate="read, write, delete, grant"/>
 			</PartyTypesPairs>
 		</PartyRelationshipType>
 		
+		<!--Person to Dataset as PI-->
 		<PartyRelationshipType Name="PI" IndicatesHierarchy="false" >
 			<PartyTypesPairs>
 				<PartyTypesPair SourceType="Person" TargetType="Dataset" Title="PI" PermissionsTemplate="read, write, delete, grant"/>
 			</PartyTypesPairs>
 		</PartyRelationshipType>
+		
 		
 	</PartyRelationshipTypes>
 </DefaultPartyParameters>
