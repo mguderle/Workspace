@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Modules>
   <!-- status is active, inactive, pending-->
   <Module id="sam" status="active" order="1" />
