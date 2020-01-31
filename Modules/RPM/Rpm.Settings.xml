@@ -8,5 +8,9 @@
       <placeholder>na</placeholder>
       <description>not available</description>
     </missingValue>
+	<missingValue>
+      <placeholder>-9999</placeholder>
+      <description>not available</description>
+    </missingValue>
   </missingValues>
 </settings>

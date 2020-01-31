@@ -9,4 +9,5 @@
   <Module id="dim" status="active" order="6" />
   <Module id="vim" status="active" order="7" />
   <Module id="mmm" status="active" order="8" />
+  <Module id="ato" status="active" order="9" />
 </Modules>
